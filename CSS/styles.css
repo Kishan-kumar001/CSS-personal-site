@@ -1,0 +1,125 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+.middle-container img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+.com-img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.chi-img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+h1 {
+  color: #66bfbf;
+  margin-top: 50px auto 0 auto;
+  font-size: 50px;
+  font-family: "Roboto Mono", monospace;
+}
+h2 {
+  font-size: 30px;
+  color: #66bfbf;
+}
+h3 {
+  color: #11999e;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+a {
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px auto;
+}
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0px 20px;
+}
+hr {
+  width: 100%;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+#top-cloud {
+  background-color: yellow;
+}
+#bottom-cloud {
+  background-color: green;
+}
+.buttonClass {
+  font-size: 30px;
+  font-family: Arial;
+  width: 200px;
+  height: 200px;
+  border-width: 1px;
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 4px 4px 0px 1px #fff;
+  text-shadow: 1px 1px 0px #2f6627;
+  background: linear-gradient(rgba(17, 205, 212, 1), rgba(17, 153, 158, 1));
+}
+
+.buttonClass:hover {
+  background: linear-gradient(rgba(17, 153, 158, 1), rgba(17, 205, 212, 1));
+}
